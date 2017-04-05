@@ -4,6 +4,10 @@ This script was made to aid the process of migrating PHP and MySQL based website
 
 If you find a problem let us know in the issues area and if you can improve the code then please fork the repository and send us a pull request :)
 
+## How to set Socket
+Insert the socket path inside the "host" field.
+Eg.: */var/lib/mariadb/mysql.sock*
+
 ## Warnings & Limitations
 
 1. Three character UTF8 seems to break in certain cases.
